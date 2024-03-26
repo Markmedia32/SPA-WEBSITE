@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Adjusted padding */
+    margin-bottom: 20px; /* Added margin to create space */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding to create clickable area */
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+  }  
+
+main {
+    padding: 20px 0;
+}
+
+.about-section {
+    text-align: center;
+    background-image: url('i'); /* Replace 'your-image-path.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    padding: 50px; /* Add padding to the section for better readability */
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    margin-bottom: 40px;
+    color: #000; /* Set text color to white for better contrast */
+  }
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+

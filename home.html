@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPA WEBSITE</title>
+        <Link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Spa Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="administrator.html">Administrator</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn" id="menuBtn">Menu <img src="images/icon.png" alt="Menu Icon"></button>
+                    <div class="dropdown-content" id="dropdown-content">
+                        <a href="services.html">Services</a>
+                        <a href="about.html">About </a>
+                        <a href="contact.html">Contact</a>
+                        <a href="booking.html">Booking</a>
+                        <a href="administrator.html">Administrator</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="banner">
+        
+            </section>
+            <section class="services">
+                <h2> Our Services</h2>
+                <section class="services">
+                <div class="service-item">
+                    <img src="images/about-image.png" alt="Massage Service">
+                    <h3> Massage Therapy</h3>
+                    <p>Indulge in our variety of massage therapies designed to relax your mind and body.</p>
+                    <a href="booking.html" class="book-now">Book Now</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/Facial.png" alt="Facial Service">
+                    <h3>Facial Treatments</h3>
+                    <p>Revitalize your skin with out rejuvenating facial treatments tailored to your skin type.</p>
+                    <a href="booking.html" class="book-now">Book Now</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/Manicure.png" alt="Manicure Service">
+                    <h3> Manicure & Pedicure </h3>
+                    <p> Pamper yourself with our professional manicure and pedicure services for elegant nails.</p>
+                    <a href="booking.html" class="book-now">Book Now</a>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us for any inquiries or questions. Our team is here to assist you.</p>
+                <ul>
+                    <li>Email: info@RadiantAuraSpa@gmail.com</li>
+                    <li>Phone: +254 7123456789</li>
+                    <li>Address: Nairobi, City, Country</li>
+                </ul>
+                <form action="submit_contact_form.php" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>            
+            
+        </main>
+        <footer>
+            <p>&copy; SPA NAME 2024</p>
+        </footer>
+    </body>
+
+    <script src="Js/script.js"></script>
+</html>
